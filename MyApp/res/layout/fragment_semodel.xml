@@ -13,23 +13,6 @@
         android:layout_marginBottom="176dp"
         android:src="@drawable/semodel_tranparant_small" />
 
-    <Spinner
-        android:id="@+id/spinner1"
-        android:layout_width="240dp"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/btnSubmit"
-        android:layout_alignParentLeft="true"
-        android:layout_marginBottom="50dp"
-        android:layout_marginLeft="61dp"
-        android:layout_marginRight="50dp"
-        android:scrollbarAlwaysDrawVerticalTrack="true"
-        android:divider="@android:color/white"
-        android:dividerHeight="1dp"
-        android:dropDownVerticalOffset="-83dp"
-        android:entries="@array/model_arrays"
-        android:popupBackground="#23114c"
-        android:prompt="@string/model_prompt" />
-
     <Button
         android:id="@+id/btnSubmit"
         android:layout_width="wrap_content"
@@ -40,5 +23,28 @@
         android:background="@color/list_divider"
         android:text="   Submit your choose   "
         android:textColor="#FFFFFF" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnSubmit"
+        android:layout_alignLeft="@+id/btnSubmit"
+        android:layout_marginBottom="33dp"
+        android:divider="@android:color/white"
+        android:dividerHeight="1dp"
+        android:dropDownVerticalOffset="-83dp"
+        android:entries="@array/model_arrays"
+        android:popupBackground="#23114c"
+        android:prompt="@string/model_prompt"
+        android:scrollbarAlwaysDrawVerticalTrack="true" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/spinner1"
+        android:layout_marginLeft="77dp"
+        android:text="Choose a model below" />
 
 </RelativeLayout>
