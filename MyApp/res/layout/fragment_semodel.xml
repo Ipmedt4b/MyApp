@@ -41,4 +41,12 @@
         android:text="   Submit your choose   "
         android:textColor="#FFFFFF" />
 
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/spinner1"
+        android:layout_marginLeft="73dp"
+        android:text="Choose a model below" />
+
 </RelativeLayout>
