@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package info.androidhive.slidingmenu.adapter;
 
 import android.view.View;
@@ -18,4 +19,26 @@ public class CustomOnItemSelectedListener implements OnItemSelectedListener {
 	// TODO Auto-generated method stub
   }
  
+=======
+package info.androidhive.slidingmenu.adapter;
+
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemSelectedListener;
+import android.widget.Toast;
+ 
+public class CustomOnItemSelectedListener implements OnItemSelectedListener {
+ 
+  public void onItemSelected(AdapterView<?> parent, View view, int pos,long id) {
+	Toast.makeText(parent.getContext(), 
+		"OnItemSelectedListener : " + parent.getItemAtPosition(pos).toString(),
+		Toast.LENGTH_SHORT).show();
+  }
+ 
+  @Override
+  public void onNothingSelected(AdapterView<?> arg0) {
+	// TODO Auto-generated method stub
+  }
+ 
+>>>>>>> eafa9bdb91b6dca9d5aabf29bc900630785bf6bd
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="rectangle" >
@@ -19,4 +20,27 @@
     <corners android:radius="2dp" >
     </corners>
  
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+ 
+    <!-- view background color -->
+    <gradient 
+        android:startColor="#20BDBA"
+        android:centerColor="#20BDBA"
+        android:endColor="#23114c"
+        android:angle="225"/>
+ 
+    <!-- If you want to add some padding -->
+    <padding
+        android:right="3dp"
+        android:left="3dp" >
+    </padding>
+ 
+    <!-- Here is the corner radius -->
+    <corners android:radius="2dp" >
+    </corners>
+ 
+>>>>>>> eafa9bdb91b6dca9d5aabf29bc900630785bf6bd
 </shape>
