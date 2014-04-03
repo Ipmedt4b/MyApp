@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
     <gradient
         android:startColor="#20BDBA"
@@ -5,4 +6,13 @@
         android:endColor="#23114c"
         android:angle="225"/>
    
+=======
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:startColor="#20BDBA"
+        android:centerColor="#20BDBA"
+        android:endColor="#23114c"
+        android:angle="225"/>
+   
+>>>>>>> eafa9bdb91b6dca9d5aabf29bc900630785bf6bd
 </shape>

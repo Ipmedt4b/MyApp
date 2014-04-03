@@ -35,4 +35,5 @@
         android:layout_marginRight="8dp"
         android:textColor="@color/counter_text_color"/>
  
+
 </RelativeLayout>
